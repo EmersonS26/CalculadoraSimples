@@ -1,0 +1,41 @@
+.Calculadora{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-color: gray;
+    height: 100%;
+    color: wheat;
+    text-align: center;
+}
+.Calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3;
+    background-color: goldenrod;
+
+}
+.button:hover{
+    background-color: blueviolet;
+}
+
+#Resultado{
+    background-color: white;
+    width: 227px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
